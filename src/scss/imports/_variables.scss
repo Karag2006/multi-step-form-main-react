@@ -1,0 +1,20 @@
+:root {
+    /* Colors */
+    /* Primary */
+    --hsl-soft-orange: 35, 77%, 62%;
+    --hsl-soft-red: 5, 85%, 63%;
+
+    --soft-red: hsl(var(--hsl-soft-red));
+    --soft-orange: hsl(var(--hsl-soft-orange));
+
+    /* Neutral */
+    --hsl-off-white: 36, 100%, 99%;
+    --hsl-greyish-blue: 233, 8%, 79%;
+    --hsl-dark-greyish-blue: 236, 13%, 42%;
+    --hsl-very-dark-blue: 240, 100%, 5%;
+
+    --off-white: hsl(var(--hsl-off-white));
+    --greyish-blue: hsl(var(--hsl-greyish-blue));
+    --dark-greyish-blue: hsl(var(--hsl-dark-greyish-blue));
+    --very-dark-blue: hsl(var(--hsl-very-dark-blue));
+}
