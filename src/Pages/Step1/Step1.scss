@@ -1,0 +1,9 @@
+@use "../../scss/imports/_mixins" as *;
+
+.App {
+    color: red;
+
+    @include breakpoint {
+        color: blue;
+    }
+}

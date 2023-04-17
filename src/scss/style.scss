@@ -1,10 +1,5 @@
+@use "./imports/_mixins" as *;
 @import url("./imports/index.scss");
-
-@mixin breakpoint {
-    @media (min-width: 900px) {
-        @content;
-    }
-}
 
 body {
     margin: 1rem;
